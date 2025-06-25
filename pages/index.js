@@ -68,7 +68,7 @@ export default function Home(){
     <Link href="/dashboard"><button className='m-[0.2cm] rounded-md bg-[#502] px-[0.3cm] py-[0.2cm] text-[#fff] generalbutton ecobutton' style={{border:"2px solid #502"}}>Explore dApp <img src="images/blockchain.png" width="25" className='ml-[0.2cm]' style={{display:"inline-block"}}/></button></Link>
    </div>
    <div className='mt-[1cm] text-center' style={{transition:"0.3s ease-in-out"}}>
-    <Link href="/task"><button className='m-[0.2cm] rounded-md bg-yellow-300 px-[0.3cm] py-[0.2cm] text-[#fff] generalbutton ecobutton' style={{border:"2px solid #502"}}>See Task <img src="images/blockchain.png" width="25" className='ml-[0.2cm]' style={{display:"inline-block"}}/></button></Link>
+    <Link href="/task"><button className='m-[0.2cm] rounded-md bg-yellow-300 hover:text-white font-semibold py-[0.2cm] text-black generalbutton ecobutton px-10' style={{border:"2px solid #502"}}>See Task </button></Link>
    </div>
    {allowAutoNav ? (<div className='text-center mt-[1cm] text-[#000]'>You will be automatically navigated to the dashboard in {count} seconds....</div>) : 
    (<div className='text-center mt-[1cm] text-[#000] font-[500]'>Auto-navigation cancelled....</div>)}
